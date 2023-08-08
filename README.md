@@ -19,13 +19,12 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/StefannusChristian/Indonesian-KTP-KYC">
     <img src="images/datalabs_logo/datalabs_logo_text_dibawah.png" alt="Logo" width="200" height="200">
-
+    <h1>Internship Project</h1>
   <p align="center">
     <a href="https://github.com/StefannusChristian/Indonesian-KTP-KYC">View Demo</a>
     ·
@@ -42,7 +41,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Project Overview</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -59,102 +58,200 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-<img src="images/other_images/ktp_arief_example.png" alt="Example">
+## Project Overview
+<img src="images/other_images/ktp_uploader_and_image_uploader.png" alt="Upload Image">
+<img src="images/other_images/threshold_slider.png" alt="Threshold Slider">
+<img src="images/other_images/ktp_arief_face_verification.png" alt="Face Verification">
+<img src="images/other_images/ktp_arief_example.png" alt="OCR">
+<img src="images/other_images/verified.png" alt="Verify Status">
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+<!-- First Row -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="https://github.com/tesseract-ocr/tesseract">
+    <img src="https://img.shields.io/badge/PyTesseract-000000?style=for-the-badge&logo=tesseract&logoColor=white" alt="PyTesseract">
+  </a>
+  <a href="https://www.streamlit.io/">
+    <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit">
+  </a>
+  <a href="https://pillow.readthedocs.io/">
+    <img src="https://img.shields.io/badge/PIL-764ABC?style=for-the-badge&logo=python&logoColor=white" alt="PIL">
+  </a>
+</div>
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+<!-- Second Row -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <a href="https://www.tensorflow.org/">
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow">
+  </a>
+  <a href="https://keras.io/">
+    <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white" alt="Keras">
+  <a href="https://opencv.org/">
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+  </a>
+  </a>
+  <a href="https://docs.python.org/3/library/re.html">
+    <img src="https://img.shields.io/badge/Regex-333?style=for-the-badge" alt="Regex">
+  </a>
+</div>
+
+<!-- Third Row -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <a href="https://github.com/ipazc/mtcnn">
+    <img src="https://img.shields.io/badge/MTCNN-FFD000?style=for-the-badge" alt="MTCNN">
+  </a>
+  <a href="https://pandas.pydata.org/">
+    <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  </a>
+  <a href="https://numpy.org/">
+    <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  </a>
+  <a href="https://www.scipy.org/">
+    <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy">
+  </a>
+</div>
+
+<!-- Fourth Row -->
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <a href="https://keras.io/api/applications/resnet/">
+    <img src="https://img.shields.io/badge/ResNet--50-FF6F00?style=for-the-badge" alt="ResNet-50">
+  </a>
+  <a href="https://cloud.google.com/bigquery">
+    <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="BigQuery">
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Otsu%27s_method">
+    <img src="https://img.shields.io/badge/Otsu Threshold-333?style=for-the-badge" alt="Otsu Threshold">
+  </a>
+</div>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Prerequisites
 
+Before you start, make sure you have the following:
 
-<!-- GETTING STARTED -->
+1. **Python**
+<br>
+   If you don't have Python installed, you can follow this installation guide:
+   [Python Installation Guide](https://www.youtube.com/watch?v=YYXdXT2l-Gg)
+
+2. **Pytesseract**
+<br>
+If you don't have Pytesseract installed, you can follow this installation guide:
+[Pytesseract Installation Guide](https://pythonforundergradengineers.com/how-to-install-pytesseract.html)
+
+3. **Anaconda**
+<br>
+If you don't have Anaconda installed, you can follow this installation guide:
+[Anaconda Installation Guide](https://docs.anaconda.com/free/anaconda/install/)
+
+4. **XAMPP / WampServer**
+<br>
+If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
+[XAMPP](https://www.apachefriends.org/download.html) or WampServer from this link [WampServer](https://www.wampserver.com/en/)
+
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+1. **Clone the repo**
   ```sh
-  npm install npm@latest -g
+  git clone https://github.com/StefannusChristian/Indonesian-KTP-KYC.git
+  ```
+2. **Create Virtual Environment With Python 3.8.16**
+  ```sh
+  conda create -n yourenvname python=3.8.16
+  conda activate yourenvname
+  ```
+> **Note**: The choice of Python 3.8.16 as the recommended version for this project is based on its compatibility with essential libraries like TensorFlow, NumPy, and Keras. This version provides a stable and well-tested environment to ensure seamless integration and reliable functionality.
+
+3. **Install Requirements**
+  ```sh
+  pip install -r requirements.txt
   ```
 
-### Installation
+4. **Configure pytesseract Path**
+  <br><br>
+   3.1 Go to the `python_files/ocr.py` directory
+  <br><br>
+   3.2 Update the `self.pytesseract_path` to your pytesseract installation path
+   ![Pytesseract Image Path](../Indonesian-KTP-KYC/images/other_images/pytesseract_path.png)
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+5. **Turn On MySQL From XAMPP or WampServer**
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+   Before starting the project, ensure that MySQL is active on your local server. If you're using XAMPP or WampServer, follow these steps to enable MySQL:
+
+   ![XAMPP](../Indonesian-KTP-KYC/images/other_images/xampp_image.png)
+
+6. **Run The Project**
+
+   Follow these steps to run the project:
+
+   - Navigate to the `python_files/` directory in your terminal:
+     ```sh
+     cd python_files
+     ```
+
+   - Make sure your virtual environment is activated, then execute the following command:
+     ```sh
+     streamlit run kyc.py
+     ```
+
+   The project will automatically open in your default browser at http://localhost:8501.
+
+
+<br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Welcome to the Indonesian KTP KYC project! This tool simplifies the process of identity verification using Indonesian KTP (Kartu Tanda Penduduk). Follow these steps to effectively utilize the project:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. **Input KTP Information**  
+   Start by providing accurate details from your Indonesian KTP. 
+
+2. **KTP Validation**  
+   The program automatically validates the provided KTP information for accuracy and consistency, checking for common errors and discrepancies.
+
+3. **Face Verification**  
+   Upon successful KTP validation, upload a self-image. The program performs face verification to confirm your identity.
+
+4. **Optical Character Recognition (OCR)**  
+   After identity verification, the program employs OCR technology to extract text from your KTP image, presenting it in a structured format.
+
+5. **Results and Confirmation**  
+   Receive a summary of extracted KTP information along with identity verification confirmation.
+
+### Flowchart
+Here is the flowchart for you to better understand about the flow of this project.
+
+![Flowchart Image Path](../Indonesian-KTP-KYC/images/slides_images/kyc_final_project_flowchart.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [ ] Add Brute Force Thresholding Algorithm
+- [ ] Add Is a Big Query Option
 
 See the [open issues](https://github.com/StefannusChristian/Indonesian-KTP-KYC/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -167,8 +264,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -176,36 +271,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+StefannusChristian - [LinkedIn](linkedin-url) - stefannuschristian@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+Project Link: [https://github.com/StefannusChristian/Indonesian-KTP-KYC](https://github.com/StefannusChristian/Indonesian-KTP-KYC)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -235,34 +308,30 @@ Use this space to list resources you find helpful and would like to give credit 
 
 [product-screenshot]: images/screenshot.png
 
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+[Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 
-[Next-url]: https://nextjs.org/
+[Python-url]: https://www.python.org/
 
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[Pandas]: https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
 
-[React-url]: https://reactjs.org/
+[Pandas-url]: https://pandas.pydata.org/
 
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[TensorFlow]: https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
 
-[Vue-url]: https://vuejs.org/
+[TensorFlow-url]: https://www.tensorflow.org/
 
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[PyTesseract]: https://img.shields.io/badge/PyTesseract-000000?style=for-the-badge&logo=python&logoColor=white
 
-[Angular-url]: https://angular.io/
+[PyTesseract-url]: https://github.com/madmaze/pytesseract
 
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[NumPy]: https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white
 
-[Svelte-url]: https://svelte.dev/
+[NumPy-url]: https://numpy.org/
 
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Keras]: https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white
 
-[Laravel-url]: https://laravel.com
+[Keras-url]: https://keras.io/
 
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[SciPy]: https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white
 
-[Bootstrap-url]: https://getbootstrap.com
-
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-
-[JQuery-url]: https://jquery.com
+[SciPy-url]: https://www.scipy.org/

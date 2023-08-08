@@ -1,0 +1,36 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore specific cached files in subdirectories
+python_files/__pycache__/
+
+# Ignore specific image files
+/ktp_classification/ktp_images/all_images/invalid_13.jpg
+/ktp_classification/ktp_images/all_images/invalid_14.jpg
+/ktp_classification/ktp_images/all_images/invalid_15.jpg
+/ktp_classification/ktp_images/all_images/invalid_18.jpg
+/ktp_classification/ktp_images/all_images/ktp_ariel.jpg
+/ktp_classification/ktp_images/all_images/ktp_mcd.jpg
+/ktp_classification/ktp_images/all_images/ktp_ren.jpg
+/ktp_classification/ktp_images/all_images/ktp_stefannus.jpg
+/ktp_classification/ktp_images/all_images/ktp_tata.jpg
+/ktp_classification/ktp_images/all_images/ktp_victor.jpg
+/ktp_classification/ktp_images/invalid_ktp/invalid_13.jpg
+/ktp_classification/ktp_images/invalid_ktp/invalid_14.jpg
+/ktp_classification/ktp_images/invalid_ktp/invalid_15.jpg
+/ktp_classification/ktp_images/invalid_ktp/invalid_18.jpg
+/ktp_classification/ktp_images/valid_ktp/ktp_ariel.jpg
+/ktp_classification/ktp_images/valid_ktp/ktp_mcd.jpg
+/ktp_classification/ktp_images/valid_ktp/ktp_ren.jpg
+/ktp_classification/ktp_images/valid_ktp/ktp_stefannus.jpg
+/ktp_classification/ktp_images/valid_ktp/ktp_tata.jpg
+/ktp_classification/ktp_images/valid_ktp/ktp_victor.jpg
+/images/datalabs_logo
+/images/images_for_face_verification/image_1_to_compare/7.jpg
+/images/images_for_face_verification/image_1_to_compare/8.jpg
+/images/images_for_face_verification/image_1_to_compare/13.1.jpg
+/images/images_for_face_verification/image_2_to_compare/1.jpg
+/images/images_for_face_verification/image_2_to_compare/3.jpg
+/images/images_for_face_verification/image_2_to_compare/7.1.jpg
+/images/images_for_face_verification/image_2_to_compare/8.jpg
+/images/images_for_face_verification/image_2_to_compare/14.1.jpg

@@ -96,6 +96,7 @@ class KTPOCR:
         self.hide_side_menu = False
         self.hide_footer = True
         self.hide_styles(self.hide_side_menu,self.hide_footer)
+        # Change this to your pytesseract installation path
         self.pytesseract_path = r"C:\Users\chris\AppData\Local\Programs\Tesseract-OCR\tesseract.exe"
         self.base_path = "../ktp_classification/ktp_images/valid_ktp/"
         self.file_path = None
