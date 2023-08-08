@@ -20,7 +20,6 @@ Welcome to the Indonesian KTP KYC project! This tool simplifies the process of i
 <br />
 <div align="center">
   <a href="https://github.com/StefannusChristian/Indonesian-KTP-KYC">
-    <img src="images/datalabs_logo/datalabs_logo_text_dibawah.png" alt="Logo" width="200" height="200">
     <h1>Internship Project</h1>
   <p align="center">
     <a href="https://github.com/StefannusChristian/Indonesian-KTP-KYC">View Demo</a>
@@ -181,13 +180,13 @@ If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
 
    Before starting the project, ensure that MySQL is active on your local server. If you're using XAMPP or WampServer, follow these steps to enable MySQL:
 
-   ![XAMPP](../Indonesian-KTP-KYC/images/other_images/xampp_image.png)
+   ![XAMPP](images\other_images\xampp_image.png)
 
 6. **Configure Local Database**
 
    Before starting the project, change the username and password to your mysql password, the default username should be `root` and the default password should be an `empty space` this file is located in `python_files/kyc.py`
 
-    ![Local DB Setup](../Indonesian-KTP-KYC/images/other_images/local_db_setup.png)
+    ![Local DB Setup](images\other_images\local_db_setup.png)
 
 7. **Run The Project**
 
@@ -243,7 +242,7 @@ Thank you for your understanding.
 ### Flowchart
 Here is the flowchart for you to better understand about the flow of this project.
 
-![Flowchart Image Path](../Indonesian-KTP-KYC/images/slides_images/kyc_final_project_flowchart.png)
+![Flowchart Image Path](images\slides_images\kyc_final_project_flowchart.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
