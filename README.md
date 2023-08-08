@@ -130,27 +130,22 @@ Welcome to the Indonesian KTP KYC project! This tool simplifies the process of i
 
 ## Prerequisites
 
-Before you start, make sure you have the following:
+Before you begin, ensure you have the following prerequisites:
 
 1. **Python**
-<br>
-   If you don't have Python installed, you can follow this installation guide:
-   [Python Installation Guide](https://www.youtube.com/watch?v=YYXdXT2l-Gg)
+   If Python is not installed on your system, you can follow this installation guide: [Python Installation Guide](https://www.youtube.com/watch?v=YYXdXT2l-Gg)
 
 2. **Pytesseract**
-<br>
-If you don't have Pytesseract installed, you can follow this installation guide:
-[Pytesseract Installation Guide](https://pythonforundergradengineers.com/how-to-install-pytesseract.html)
+   Ensure you have Pytesseract installed by referring to this installation guide: [Pytesseract Installation Guide](https://pythonforundergradengineers.com/how-to-install-pytesseract.html)
 
 3. **Anaconda**
-<br>
-If you don't have Anaconda installed, you can follow this installation guide:
-[Anaconda Installation Guide](https://docs.anaconda.com/free/anaconda/install/)
+   If you don't have Anaconda installed, you can install it using this guide: [Anaconda Installation Guide](https://docs.anaconda.com/free/anaconda/install/)
 
 4. **XAMPP / WampServer**
-<br>
-If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
-[XAMPP](https://www.apachefriends.org/download.html) or WampServer from this link [WampServer](https://www.wampserver.com/en/)
+   To set up your database, you'll need XAMPP or WampServer. Install XAMPP from this link: [XAMPP](https://www.apachefriends.org/download.html) or WampServer from this link: [WampServer](https://www.wampserver.com/en/)
+
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+
 
 ## Getting Started
 
@@ -205,7 +200,7 @@ If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
 
    The project will automatically open in your default browser at http://localhost:8501.
 
-****
+
 <br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
