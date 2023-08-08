@@ -1,9 +1,6 @@
 # Indonesian-KTP-KYC
-<!-- Improved compatibility of back to top link: See: https://github.com/StefannusChristian/Indonesian-KTP-KYC/pull/73 -->
+Welcome to the Indonesian KTP KYC project! This tool simplifies the process of identity verification using Indonesian KTP (Kartu Tanda Penduduk).
 <a name="readme-top"></a>
-
-
-
 
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -191,7 +188,13 @@ If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
 
    ![XAMPP](../Indonesian-KTP-KYC/images/other_images/xampp_image.png)
 
-6. **Run The Project**
+6. **Configure Local Database**
+
+   Before starting the project, change the username and password to your mysql password, the default username should be `root` and the default password should be an `empty space` this file is located in `python_files/kyc.py`
+
+    ![Local DB Setup](../Indonesian-KTP-KYC/images/other_images/local_db_setup.png)
+
+7. **Run The Project**
 
    Follow these steps to run the project:
 
@@ -207,14 +210,12 @@ If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
 
    The project will automatically open in your default browser at http://localhost:8501.
 
-
+****
 <br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Usage
-
-Welcome to the Indonesian KTP KYC project! This tool simplifies the process of identity verification using Indonesian KTP (Kartu Tanda Penduduk). Follow these steps to effectively utilize the project:
+## Project Flow
 
 1. **Input KTP Information**  
    Start by providing accurate details from your Indonesian KTP. 

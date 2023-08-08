@@ -140,7 +140,7 @@ class KTPOCR:
         elif self.image_name == "ktp_galang.png": threshed_value = 70
         elif self.image_name == "ktp_sulistyono.png": threshed_value = 140
         elif self.image_name == "ktp_muhammad.png": threshed_value = 132
-        elif self.image_name == "ktp_ren.jpg": threshed_value = 140
+        # elif self.image_name == "ktp_ren.jpg": threshed_value = 140
         elif self.image_name == "ktp_sarip.png": threshed_value = 89
         elif self.image_name == "ktp_yasir.jpeg": threshed_value = 140
         elif self.image_name == "ktp_yopi.png": threshed_value = 140
