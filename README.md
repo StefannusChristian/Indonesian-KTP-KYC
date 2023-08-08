@@ -144,7 +144,7 @@ Before you begin, ensure you have the following prerequisites:
 4. **XAMPP / WampServer**
    To set up your database, you'll need XAMPP or WampServer. Install XAMPP from this link: [XAMPP](https://www.apachefriends.org/download.html) or WampServer from this link: [WampServer](https://www.wampserver.com/en/)
 
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Getting Started
@@ -215,7 +215,7 @@ The FACE VERIFICATION DEMO PAGE's image comparison functionality may not work as
 
 Thank you for your understanding.
 
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Project Flow
