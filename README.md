@@ -54,11 +54,12 @@ Welcome to the Indonesian KTP KYC project! This tool simplifies the process of i
 
 <!-- ABOUT THE PROJECT -->
 ## Project Overview
-<img src="images/other_images/ktp_uploader_and_image_uploader.png" alt="Upload Image">
-<img src="images/other_images/threshold_slider.png" alt="Threshold Slider">
-<img src="images/other_images/ktp_arief_face_verification.png" alt="Face Verification">
-<img src="images/other_images/ktp_arief_example.png" alt="OCR">
-<img src="images/other_images/verified.png" alt="Verify Status">
+![Upload Image](images/other_images/ktp_uploader_and_image_uploader.png)
+![Threshold Slider](images/other_images/threshold_slider.png)
+![Face Verification](images/other_images/ktp_arief_face_verification.png)
+![OCR](images/other_images/ktp_arief_example.png)
+![Verify Status](images/other_images/verified.png)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Built With
@@ -174,19 +175,19 @@ If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
    3.1 Go to the `python_files/ocr.py` directory
   <br><br>
    3.2 Update the `self.pytesseract_path` to your pytesseract installation path
-   ![Pytesseract Image Path](../Indonesian-KTP-KYC/images/other_images/pytesseract_path.png)
+   ![Pytesseract Image Path](/images/other_images/pytesseract_path.png)
 
 5. **Turn On MySQL From XAMPP or WampServer**
 
    Before starting the project, ensure that MySQL is active on your local server. If you're using XAMPP or WampServer, follow these steps to enable MySQL:
 
-   ![XAMPP](images\other_images\xampp_image.png)
+   ![XAMPP](/images/other_images/xampp_image.png)
 
 6. **Configure Local Database**
 
    Before starting the project, change the username and password to your mysql password, the default username should be `root` and the default password should be an `empty space` this file is located in `python_files/kyc.py`
 
-    ![Local DB Setup](images\other_images\local_db_setup.png)
+    ![Local DB Setup](images/other_images/local_db_setup.png)
 
 7. **Run The Project**
 
@@ -242,7 +243,7 @@ Thank you for your understanding.
 ### Flowchart
 Here is the flowchart for you to better understand about the flow of this project.
 
-![Flowchart Image Path](images\slides_images\kyc_final_project_flowchart.png)
+![Flowchart Image Path](images/slides_images/kyc_final_project_flowchart.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
