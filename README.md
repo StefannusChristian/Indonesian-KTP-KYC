@@ -31,27 +31,22 @@ Welcome to the Indonesian KTP KYC project! This tool simplifies the process of i
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">Project Overview</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#project-overview">Project Overview</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#disclaimer">Disclaimer</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li>
+      <a href="#project-flow">Project Flow</a>
+      <ul>
+        <li><a href="#flowchart">Flowchart</a></li>
+      </ul>
+    </li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -67,7 +62,7 @@ Welcome to the Indonesian KTP KYC project! This tool simplifies the process of i
 <img src="images/other_images/verified.png" alt="Verify Status">
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## Built With
 
 <!-- First Row -->
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
@@ -214,6 +209,19 @@ If you don't have XAMPP / WAMPP installed, you can install XAMPP from this link:
 <br><br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Disclaimer
+
+The FACE VERIFICATION DEMO PAGE's image comparison functionality may not work as expected due to the removal of confidential KTP data. To ensure proper functionality, follow these steps:
+
+1. Navigate to the `images/image_for_face_verification` directory.
+2. Place the image files for comparison in the `images/image_for_face_verification/image_1_to_compare` directory.
+3. Place the corresponding second set of image files in the `images/image_for_face_verification/image_2_to_compare` directory.
+
+Thank you for your understanding.
+
+<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+
 
 ## Project Flow
 
