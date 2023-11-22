@@ -110,6 +110,9 @@ Welcome to the Indonesian KTP KYC project! This tool simplifies the process of i
   <a href="https://www.scipy.org/">
     <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy">
   </a>
+  <a href="https://www.apachefriends.org/">
+    <img src="https://img.shields.io/badge/XAMPP-fb7a24?style=for-the-badge&logo=xampp&logoColor=white" alt="XAMPP">
+</a>
 </div>
 
 <!-- Fourth Row -->
@@ -122,6 +125,9 @@ Welcome to the Indonesian KTP KYC project! This tool simplifies the process of i
   </a>
   <a href="https://en.wikipedia.org/wiki/Otsu%27s_method">
     <img src="https://img.shields.io/badge/Otsu Threshold-333?style=for-the-badge" alt="Otsu Threshold">
+  </a>
+  <a href="https://pypi.org/project/pymysql/">
+    <img src="https://img.shields.io/badge/pymysql-3F8EFC?style=for-the-badge&" alt="pymysql">
   </a>
 </div>
 
